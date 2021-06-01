@@ -1,0 +1,28 @@
+2021-06-01 01:54:00 INFO  Colocar en qué puerto escuchará:
+2021-06-01 01:54:00 INFO  Esperando conexion puerto: 1234
+2021-06-01 01:54:57 DEBUG TEXTO: Mensaje: hola
+2021-06-01 02:01:41 DEBUG TEXTO: Mensaje: akskkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkk
+2021-06-01 06:51:32 INFO  Colocar en qué puerto escuchará:
+2021-06-01 06:51:36 INFO  Esperando conexion puerto: 1234
+2021-06-01 06:51:53 INFO  Conexion a servidor exitosa
+2021-06-01 06:51:53 INFO  Se creo el objeto para enviar a partir del socket
+2021-06-01 06:51:53 INFO  Se conectó a 127.0.0.1:1234
+2021-06-01 06:51:53 INFO  Se añadio cliente
+2021-06-01 06:52:12 DEBUG TEXTO: Mensaje: hola
+2021-06-01 06:52:12 INFO  MENSAJE Mensaje: hola 06:52 / 2021-06-01
+2021-06-01 06:52:19 ERROR Error
+java.net.SocketException: Connection reset
+	at sun.nio.ch.NioSocketImpl.implRead(NioSocketImpl.java:323) ~[?:?]
+	at sun.nio.ch.NioSocketImpl.read(NioSocketImpl.java:350) ~[?:?]
+	at sun.nio.ch.NioSocketImpl$1.read(NioSocketImpl.java:803) ~[?:?]
+	at java.net.Socket$SocketInputStream.read(Socket.java:981) ~[?:?]
+	at sun.nio.cs.StreamDecoder.readBytes(StreamDecoder.java:297) ~[?:?]
+	at sun.nio.cs.StreamDecoder.implRead(StreamDecoder.java:339) ~[?:?]
+	at sun.nio.cs.StreamDecoder.read(StreamDecoder.java:188) ~[?:?]
+	at java.io.InputStreamReader.read(InputStreamReader.java:181) ~[?:?]
+	at java.io.BufferedReader.fill(BufferedReader.java:161) ~[?:?]
+	at java.io.BufferedReader.readLine(BufferedReader.java:326) ~[?:?]
+	at java.io.BufferedReader.readLine(BufferedReader.java:392) ~[?:?]
+	at practico5.net.Recibir.run(Recibir.java:67) [classes/:?]
+	at java.lang.Thread.run(Thread.java:832) [?:?]
+2021-06-01 06:54:08 DEBUG TEXTO: Mensaje: hola 06:54 / 2021-06-01
